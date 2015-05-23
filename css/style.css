@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/* ScrollControle */
+thead ,tbody{
+	display: block;
+}
+tbody{
+	overflow-y:scroll;
+	height: 500px;
+}
+td,th{
+	table-layout: fixed;
+}
+
+.container{
+	min-width:250px;
+}
